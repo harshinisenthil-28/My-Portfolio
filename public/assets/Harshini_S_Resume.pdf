@@ -1,0 +1,109 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1200 >>
+stream
+BT
+/F2 20 Tf
+50 740 Td
+(HARSHINI S) Tj
+/F1 10 Tf
+0 -18 Td
+(Phone: 9342457059 | Email: harshini28senthil@gmail.com | Github: github.com/harshinisenthil-28) Tj
+0 -25 Td
+/F2 12 Tf
+(SUMMARY) Tj
+0 -14 Td
+/F1 9 Tf
+(Computer Science Engineering student with strong foundations in Data Structures & Algorithms,) Tj
+0 -12 Td
+(Object-Oriented Programming, and full-stack software development. Solved 450+ LeetCode problems.) Tj
+0 -22 Td
+/F2 12 Tf
+(TECHNICAL SKILLS) Tj
+0 -14 Td
+/F1 9 Tf
+(Languages: Java, C++, Python, C) Tj
+0 -12 Td
+(Backend: Spring Boot, REST APIs, JDBC, Hibernate, Node.js, Express.js) Tj
+0 -12 Td
+(Frontend: React.js, JavaScript, HTML5, CSS3) Tj
+0 -12 Td
+(Databases & Tools: MySQL, MongoDB, Git, GitHub, Postman, Vercel, Render) Tj
+0 -22 Td
+/F2 12 Tf
+(PROJECTS) Tj
+0 -14 Td
+/F2 10 Tf
+(1. AI Based Cyberbullying & Harmful Content Detection Platform) Tj
+0 -12 Td
+/F1 9 Tf
+(- Developed a role-based full-stack web app using React.js and Spring Boot to detect harmful content.) Tj
+0 -12 Td
+(- Integrated Gemini API with Spring Boot & MySQL. Deployed on Vercel and Render.) Tj
+0 -16 Td
+/F2 10 Tf
+(2. Smart Queue Management System) Tj
+0 -12 Td
+/F1 9 Tf
+(- QR-based Smart Queue Management System enabling contactless registration and real-time tracking.) Tj
+0 -12 Td
+(- RESTful APIs using Node.js, Express.js & MongoDB Atlas. Deployed on Vercel & Render.) Tj
+0 -22 Td
+/F2 12 Tf
+(EDUCATION) Tj
+0 -14 Td
+/F2 10 Tf
+(Karpagam College of Engineering, Coimbatore) Tj
+0 -12 Td
+/F1 9 Tf
+(B.E. Computer Science and Engineering | CGPA: 8.67/10 | 2024 - 2028) Tj
+0 -16 Td
+/F2 10 Tf
+(KMC Public Senior Secondary School, Tirupur) Tj
+0 -12 Td
+/F1 9 Tf
+(HSC Score: 77% | 2024) Tj
+0 -22 Td
+/F2 12 Tf
+(CERTIFICATIONS & ACHIEVEMENTS) Tj
+0 -14 Td
+/F1 9 Tf
+(- Solved 450+ LeetCode problems.) Tj
+0 -12 Td
+(- Microsoft Generative AI Certification | NPTEL IoT & Competitive Programming.) Tj
+0 -12 Td
+(- 1-Week Industrial Exposure Internship at Assitanz Networks Pvt. Ltd.) Tj
+0 -12 Td
+(- Communication Chair Head, AURA Association & Master of Ceremonies (MC).) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000264 00000 n 
+0000001516 00000 n 
+0000001583 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1655
+%%EOF
