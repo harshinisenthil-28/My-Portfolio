@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, Code, Cpu, Sparkles, Send } from 'lucide-react';
+import { Download, Send } from 'lucide-react';
 
 export default function Hero() {
   const scrollToSection = (id) => {
@@ -35,23 +35,8 @@ export default function Hero() {
         <div className="hero-image-wrapper">
           <div className="hero-image-card">
             <img src="/assets/profile.jpg" alt="Harshini S" />
-            {/* Instagram Style Active Green Badge sitting on the bottom-right black circle line */}
+            {/* Instagram Style Active Green Badge */}
             <span className="status-dot-active" title="Active now"></span>
-          </div>
-          
-          <div className="hero-float-card card-1">
-            <Code size={18} />
-            <span>450+ LeetCode</span>
-          </div>
-          
-          <div className="hero-float-card card-2">
-            <Cpu size={18} />
-            <span>Spring Boot & React</span>
-          </div>
-
-          <div className="hero-float-card card-3">
-            <Sparkles size={18} />
-            <span>Gemini AI & Node</span>
           </div>
         </div>
       </div>
