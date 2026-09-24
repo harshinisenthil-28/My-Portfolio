@@ -47,8 +47,12 @@ export default function Projects() {
         {projects.map((proj) => (
           <div 
             key={proj.id} 
-            className="pin pin-project pin-clickable"
-            onClick={() => setSelectedProject(proj)}
+            className={`pin pin-project ${proj.id !== 'queue' ? 'pin-clickable' : ''}`}
+            onClick={() => {
+              if (proj.id !== 'queue') {
+                setSelectedProject(proj);
+              }
+            }}
           >
             <div className={`project-header ${proj.headerClass}`}>
               <div className="project-icon">{proj.icon}</div>
@@ -62,14 +66,16 @@ export default function Projects() {
               <h3>{proj.title}</h3>
               <p>{proj.description}</p>
               
-              <div style={{ marginTop: '16px', color: 'var(--accent)', fontSize: '13px', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                View Project Details <ArrowRight size={14} />
-              </div>
+              {proj.id !== 'queue' && (
+                <div style={{ marginTop: '16px', color: 'var(--accent)', fontSize: '13px', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  View Project Details <ArrowRight size={14} />
+                </div>
+              )}
             </div>
           </div>
         ))}
 
-        {/* Innovative Architecture & Stack Pin (Replacing Photo Pin) */}
+        {/* Innovative Architecture & Stack Pin */}
         <div className="pin pin-architecture">
           <div className="pin-content">
             <div className="pin-icon" style={{ background: '#6b9080' }}><Layers size={24} /></div>
@@ -105,7 +111,7 @@ export default function Projects() {
               </div>
               <div className="stat">
                 <span className="stat-number">2+</span>
-                <span className="stat-label">Full Stack Apps</span>
+                <span className="stat-label">Projects</span>
               </div>
               <div className="stat">
                 <span className="stat-number">8.67</span>
